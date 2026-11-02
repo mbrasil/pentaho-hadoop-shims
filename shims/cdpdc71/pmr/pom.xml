@@ -32,7 +32,6 @@
     <dependency>
       <groupId>org.apache.hbase</groupId>
       <artifactId>hbase-client</artifactId>
-      <version>${org.apache.hbase.version}</version>
       <exclusions>
         <exclusion>
           <groupId>*</groupId>
@@ -43,7 +42,6 @@
     <dependency>
       <groupId>org.apache.hbase</groupId>
       <artifactId>hbase-common</artifactId>
-      <version>${org.apache.hbase.version}</version>
       <exclusions>
         <exclusion>
           <groupId>*</groupId>
@@ -54,7 +52,6 @@
     <dependency>
       <groupId>org.apache.hbase</groupId>
       <artifactId>hbase-hadoop-compat</artifactId>
-      <version>${org.apache.hbase.version}</version>
       <exclusions>
         <exclusion>
           <groupId>*</groupId>
@@ -65,7 +62,6 @@
     <dependency>
       <groupId>org.apache.hbase</groupId>
       <artifactId>hbase-mapreduce</artifactId>
-      <version>${org.apache.hbase.version}</version>
       <exclusions>
         <exclusion>
           <groupId>com.nimbusds</groupId>
@@ -151,7 +147,6 @@
     <dependency>
       <groupId>org.apache.hbase</groupId>
       <artifactId>hbase-protocol</artifactId>
-      <version>${org.apache.hbase.version}</version>
       <exclusions>
         <exclusion>
           <groupId>*</groupId>
@@ -162,7 +157,6 @@
     <dependency>
       <groupId>org.apache.hbase</groupId>
       <artifactId>hbase-server</artifactId>
-      <version>${org.apache.hbase.version}</version>
       <exclusions>
         <exclusion>
           <groupId>*</groupId>
@@ -173,7 +167,6 @@
     <dependency>
       <groupId>org.apache.hbase</groupId>
       <artifactId>hbase-thrift</artifactId>
-      <version>${org.apache.hbase.version}</version>
       <exclusions>
         <exclusion>
           <groupId>*</groupId>
@@ -184,7 +177,6 @@
     <dependency>
       <groupId>org.apache.hbase</groupId>
       <artifactId>hbase-asyncfs</artifactId>
-      <version>${org.apache.hbase.version}</version>
       <exclusions>
         <exclusion>
           <groupId>*</groupId>
@@ -195,7 +187,6 @@
     <dependency>
       <groupId>org.apache.hbase</groupId>
       <artifactId>hbase-hadoop2-compat</artifactId>
-      <version>${org.apache.hbase.version}</version>
       <exclusions>
         <exclusion>
           <groupId>*</groupId>
@@ -206,7 +197,6 @@
     <dependency>
       <groupId>org.apache.hbase</groupId>
       <artifactId>hbase-http</artifactId>
-      <version>${org.apache.hbase.version}</version>
       <exclusions>
         <exclusion>
           <groupId>*</groupId>
@@ -217,7 +207,6 @@
     <dependency>
       <groupId>org.apache.hbase</groupId>
       <artifactId>hbase-logging</artifactId>
-      <version>${org.apache.hbase.version}</version>
       <exclusions>
         <exclusion>
           <groupId>*</groupId>
@@ -228,7 +217,6 @@
     <dependency>
       <groupId>org.apache.hbase</groupId>
       <artifactId>hbase-metrics</artifactId>
-      <version>${org.apache.hbase.version}</version>
       <exclusions>
         <exclusion>
           <groupId>*</groupId>
@@ -239,7 +227,6 @@
     <dependency>
       <groupId>org.apache.hbase</groupId>
       <artifactId>hbase-metrics-api</artifactId>
-      <version>${org.apache.hbase.version}</version>
       <exclusions>
         <exclusion>
           <groupId>*</groupId>
@@ -250,7 +237,6 @@
     <dependency>
       <groupId>org.apache.hbase</groupId>
       <artifactId>hbase-procedure</artifactId>
-      <version>${org.apache.hbase.version}</version>
       <exclusions>
         <exclusion>
           <groupId>*</groupId>
@@ -261,7 +247,6 @@
     <dependency>
       <groupId>org.apache.hbase</groupId>
       <artifactId>hbase-protocol-shaded</artifactId>
-      <version>${org.apache.hbase.version}</version>
       <exclusions>
         <exclusion>
           <groupId>*</groupId>
@@ -272,7 +257,6 @@
     <dependency>
       <groupId>org.apache.hbase</groupId>
       <artifactId>hbase-replication</artifactId>
-      <version>${org.apache.hbase.version}</version>
       <exclusions>
         <exclusion>
           <groupId>*</groupId>
@@ -353,7 +337,6 @@
     <dependency>
       <groupId>org.apache.hbase</groupId>
       <artifactId>hbase-zookeeper</artifactId>
-      <version>${org.apache.hbase.version}</version>
       <exclusions>
         <exclusion>
           <groupId>*</groupId>

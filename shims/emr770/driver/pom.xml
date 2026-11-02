@@ -29,7 +29,6 @@
     <org.apache.avro.version>1.12.1</org.apache.avro.version>
     <org.apache.hive.version>4.2.0</org.apache.hive.version>
     <org.apache.oozie.version>5.2.1</org.apache.oozie.version>
-    <org.apache.hbase.version>2.6.2</org.apache.hbase.version>
     <sqoop.version>1.4.7</sqoop.version>
     <pig.version>0.17.0</pig.version>
     <pentaho-code.version>11.0.0.0</pentaho-code.version>
@@ -844,7 +843,6 @@
     <dependency>
       <groupId>org.apache.hbase</groupId>
       <artifactId>hbase-server</artifactId>
-      <version>${org.apache.hbase.version}</version>
       <exclusions>
         <exclusion>
           <groupId>org.apache.tomcat</groupId>
@@ -872,17 +870,14 @@
     <dependency>
       <groupId>org.apache.hbase</groupId>
       <artifactId>hbase-metrics-api</artifactId>
-      <version>${org.apache.hbase.version}</version>
     </dependency>
     <dependency>
       <groupId>org.apache.hbase</groupId>
       <artifactId>hbase-metrics</artifactId>
-      <version>${org.apache.hbase.version}</version>
     </dependency>
     <dependency>
       <groupId>org.apache.hbase</groupId>
       <artifactId>hbase-client</artifactId>
-      <version>${org.apache.hbase.version}</version>
       <exclusions>
         <exclusion>
           <artifactId>protobuf-java</artifactId>
@@ -913,7 +908,6 @@
     <dependency>
       <groupId>org.apache.hbase</groupId>
       <artifactId>hbase-common</artifactId>
-      <version>${org.apache.hbase.version}</version>
       <exclusions>
         <exclusion>
           <artifactId>protobuf-java</artifactId>
@@ -937,7 +931,6 @@
     <dependency>
       <groupId>org.apache.hbase</groupId>
       <artifactId>hbase-mapreduce</artifactId>
-      <version>${org.apache.hbase.version}</version>
       <exclusions>
         <exclusion>
           <artifactId>protobuf-java</artifactId>
